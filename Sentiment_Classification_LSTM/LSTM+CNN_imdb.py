@@ -23,10 +23,10 @@ model.compile(loss = 'binary_crossentropy', optimizer = 'adam', metrics = ['accu
 # print model.summary()
 
 model.fit(X_train, y_train, epochs=5, batch_size=32, validation_data=(X_test, y_test))
-score, accuracy_train = model.evaluate(X_train, y_train)
-print accuracy_train
-score, accuracy_test = model.evaluate(X_test, y_test)
-print accuracy_test
+score_train, accuracy_train = model.evaluate(X_train, y_train)
+print score_train, accuracy_train
+score_test, accuracy_test = model.evaluate(X_test, y_test)
+print score_test, accuracy_test
 
 # Save model
 model.save('model_LSTM+CNN.h5')
