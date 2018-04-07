@@ -1,4 +1,4 @@
-### Notes
+## Notes
 - Use Stacked LSTM, if necessary to get good results instead of LSTM.
 - CNN + LSTM - LSTM on top of CNN
   - CNN is used for feature extraction and LSTM is used to interpret the features accross the time steps.
@@ -6,7 +6,7 @@
   - model.predict(X)
   - model.predict_classes(X)
   - model.predict_proba(X)
-- Life cycle for LSTM models in Keras
+- ### Life cycle for LSTM models in Keras
   - Define Network
     - Input must be three dimensional - samples, timesteps, features.
     - Convert 2D dataset into 3D dataset.
@@ -44,8 +44,17 @@
   - Make Predictions
     - Make predictions on new data
     - predictions = model.predict(X)
- 
+- ### Different types of Sequence Prediction Problems:
+  - Sequence Prediction:
+    - Given a sequence of values, predicting the next value.
+  - Sequence Classification:
+    - Predicting a class label for a given input sequence.
+  - Sequence Genration:
+    - Generating a sequence - Text generation, Music generation.
+  - Sequence to Sequence Prediction:
+    - Predicts an output sequence, given an input sequence.
  
 ### References:
 - [Machine Learning Mastery](https://machinelearningmastery.com/)
 - [Life cycle of LSTM models - keras](https://machinelearningmastery.com/5-step-life-cycle-long-short-term-memory-models-keras/)
+- [Different types of Sequence Prediction Problems](https://machinelearningmastery.com/sequence-prediction/)
