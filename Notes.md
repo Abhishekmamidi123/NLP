@@ -53,8 +53,17 @@
     - Generating a sequence - Text generation, Music generation.
   - Sequence to Sequence Prediction:
     - Predicts an output sequence, given an input sequence.
+- ### Applications of deep learning for NLP
+  - Text Classification
+  - Language Modeling
+  - Speech Recognition
+  - Caption Generation
+  - Machine Translation
+  - Document Summarization
+  - Question Answering
  
 ### References:
 - [Machine Learning Mastery](https://machinelearningmastery.com/)
 - [Life cycle of LSTM models - keras](https://machinelearningmastery.com/5-step-life-cycle-long-short-term-memory-models-keras/)
 - [Different types of Sequence Prediction Problems](https://machinelearningmastery.com/sequence-prediction/)
+- [Applications of deep learning for NLP](https://machinelearningmastery.com/applications-of-deep-learning-for-natural-language-processing/)
