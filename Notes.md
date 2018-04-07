@@ -67,3 +67,4 @@
 - [Life cycle of LSTM models - keras](https://machinelearningmastery.com/5-step-life-cycle-long-short-term-memory-models-keras/)
 - [Different types of Sequence Prediction Problems](https://machinelearningmastery.com/sequence-prediction/)
 - [Applications of deep learning for NLP](https://machinelearningmastery.com/applications-of-deep-learning-for-natural-language-processing/)
+- [Popular Datasets used for NLP](https://machinelearningmastery.com/datasets-natural-language-processing/)
