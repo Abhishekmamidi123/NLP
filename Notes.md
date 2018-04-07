@@ -33,10 +33,17 @@
       - Stochastic Gradient Descent - 'sgd'
       - Adam - 'adam'
       - RMSprop - 'rmsprop'
+    - Metrics: ['accuracy']
   - Fit Network
-    - 
+    - X, y, batch size and epochs are some of the parameters.
+    - Example:
+      - model.fit(X, y, batch_size=10, epochs=100, verbose=0)
   - Evaluate Network
+    - Evaluating the trained model.
+    - loss, accuracy = model.evaluate(X, y, verbose=0)
   - Make Predictions
+    - Make predictions on new data
+    - predictions = model.predict(X)
  
  
 ### References:
