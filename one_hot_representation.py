@@ -14,4 +14,4 @@ print t.word_docs # How many times the word occurred in the documents
 encoded_docs = t.texts_to_matrix(docs, mode='count')
 print encoded_docs
 
-
+encoded_docs_numbers = t.texts_to_sequences(docs)
