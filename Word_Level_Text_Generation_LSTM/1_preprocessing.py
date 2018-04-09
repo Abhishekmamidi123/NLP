@@ -31,4 +31,4 @@ print len(sentences)
 filename = 'rebuplic_preprocessed.txt'
 file = open(filename, 'w')
 file.write('\n'.join(sentences))
-file.close
+file.close()
