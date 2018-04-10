@@ -6,7 +6,7 @@ from keras.utils import np_utils
 from keras.utils import plot_model
 from pickle import dump
 from keras.utils import to_categorical
-
+	
 # Read sentences.
 filename = 'rebuplic_preprocessed.txt'
 file = open(filename, 'r')
@@ -15,7 +15,6 @@ file.close()
 lines = data.split('\n')
 
 # Convert the words into integers.
-t = Tokenizer()
 t.fit_on_texts(lines)
 encoded_lines = t.texts_to_sequences(lines)
 vocab_size = len(t.word_index) + 1

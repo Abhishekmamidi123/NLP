@@ -38,7 +38,7 @@ model.compile(loss = 'categorical_crossentropy', optimizer = 'adam', metrics = [
 model.fit(X, y, epochs = 1000, verbose = 0)
 
 # Generate text
-start_text = 'Jill'
+start_text = 'jack'
 start_text = start_text.lower()
 
 predicted_words = []
@@ -47,7 +47,6 @@ predicted_words.append(start_text)
 N = 30
 for i in range(N):
     input_sequence = t.texts_to_sequences([start_text])[0]
-    print input_sequence
     y_pred = model.predict_classes(np.array(input_sequence))
     word_pred = ''
     for word,index in t.word_index.items():
