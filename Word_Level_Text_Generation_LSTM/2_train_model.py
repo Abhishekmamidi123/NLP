@@ -15,6 +15,7 @@ file.close()
 lines = data.split('\n')
 
 # Convert the words into integers.
+t = Tokenizer()
 t.fit_on_texts(lines)
 encoded_lines = t.texts_to_sequences(lines)
 vocab_size = len(t.word_index) + 1
@@ -23,6 +24,8 @@ vocab_size = len(t.word_index) + 1
 encoded_lines = np.array(encoded_lines[:-1]) # Remove last line which is '\n'
 X = encoded_lines[:,:-1]
 y = encoded_lines[:,-1]
+print X
+print y
 seq_length = len(X[1])
 
 model = Sequential()
