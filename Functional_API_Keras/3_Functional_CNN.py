@@ -1,4 +1,4 @@
-# Using Functional API - CNN
+# Functional API - CNN
 from keras.models import Model
 from keras.layers import Input, Dense
 from keras.layers.convolutional import Conv2D
