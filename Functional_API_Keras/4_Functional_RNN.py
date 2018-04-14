@@ -11,4 +11,4 @@ output = Dense(1, activation = 'sigmoid')(hidden2)
 model = Model(inputs = visible, outputs = output)
 
 print model.summary()
-plot_model(model, '4_RNN.png')
+plot_model(model, '4_Functional_RNN.png')

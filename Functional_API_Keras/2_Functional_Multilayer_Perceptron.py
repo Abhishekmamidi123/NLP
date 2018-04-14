@@ -12,4 +12,4 @@ output = Dense(1, activation = 'sigmoid')(hidden3)
 
 model = Model(inputs = visible, outputs = output)
 print model.summary()
-plot_model(model, to_file = 'multilayer_perceptron_graph.png')
+plot_model(model, to_file = '2_Functional_Multilayer_perceptron.png')

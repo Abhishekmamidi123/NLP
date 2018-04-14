@@ -22,4 +22,4 @@ output = Dense(1, activation = 'sigmoid')(hidden1)
 
 model = Model(inputs = visible, outputs = output)
 print model.summary()
-plot_model(model, to_file = '5_Shared_input_layers.png')
+plot_model(model, to_file = '5_Shared_input_layer.png')
