@@ -1,7 +1,7 @@
 ## Notes
 - Use Stacked LSTM, if necessary to get good results instead of LSTM.
-- CNN + LSTM - LSTM on top of CNN
-  - CNN is used for feature extraction and LSTM is used to interpret the features accross the time steps.
+- LSTM + CNN - CNN on top of LSTM
+  - LSTM is used for feature extraction and CNN is used to interpret the features accross the time steps.
 - In Keras - Types of predictions:
   - model.predict(X)
   - model.predict_classes(X)
