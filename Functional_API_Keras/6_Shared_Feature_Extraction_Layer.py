@@ -20,4 +20,4 @@ output = Dense(1, activation = 'sigmoid')(merge)
 model = Model(inputs = visible, outputs = output)
 
 print model.summary()
-plot_model(model, '6_Shared_Extraction_Layer.png')
+plot_model(model, '6_Shared_Extraction_Layer.png', show_shapes=True, show_layer_names=True)

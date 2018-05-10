@@ -17,4 +17,4 @@ output2 = TimeDistributed(Dense(1, activation = 'linear'))(hidden)
 
 model = Model(inputs = visible, outputs = [output1, output2])
 print model.summary()
-plot_model(model, '8_Multiple_Output_Model.png')
+plot_model(model, '8_Multiple_Output_Model.png', show_shapes=True, show_layer_names=True)
